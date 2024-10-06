@@ -1,0 +1,34 @@
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QRadioButton
+ 
+app = QApplication([])
+main_win = QWidget()
+main_win.show()
+app.exec_()
+
+main_win.setWindowTitle("конкурс")
+question = QLabel ("В якому році канал отримав золоту кнопку")
+answer1 = QRadioButton("2005")
+answer2 = QRadioButton("2010")
+answer3 = QRadioButton("2016")
+answer4 = QRadioButton("2020")
+
+layoutH1 = QVBoxLayout()
+layouth2 = QVBoxLayout()
+layouth3 = QVBoxLayout()
+layoutH1.addWidget(question,alignment = QApplication)
+layouth2.addWidget(answer1,alignment = QApplication)
+layouth2.addWidget(answer2,alignment = QApplication)
+layouth2.addWidget(answer2,alignment = QApplication)
+layouth3.addWidget(answer3,alignment = QApplication)
+layouth3.addWidget(answer3,alignment = QApplication)
+layout_main = QVBoxLayout()
+layout_main.addWidget(question,alignment = Qt.QAlignCenter)
+layout_main.addWidget(answer1,alignment = Qt.QAlignCenter)
+layout_main.addWidget(answer2,alignment = Qt.QAlignCenter)
+layout_main.addWidget(answer3,alignment = Qt.QAlignCenter)
+layout_main.addWidget(answer4,alignment = Qt.QAlignCenter)
+
+main_win.setLayout(layout_main)
+main_win.show()
+app.exec_()

@@ -1,0 +1,26 @@
+class Widget():
+    def __init__(self, text,x,y):
+        self.text = text
+        self.x = x
+        self.y = y
+    
+    def print_info(self):
+        print("Напис", self.text)
+        print("Розташування",self.x,self.y)
+class Button(Widget):
+    def __init__(self,text,x,y,is_clicked):
+        super().__init__(text,x,y)
+        self.is_clicked = is_clicked
+    
+    def click(self):
+        self.is_clicked = True
+        print("you are singed up")
+
+
+button = Button("Брати участь",100,100,False)
+button.print_info()
+answer = input("Бажайете зареэструватись? (так/ні):")
+if answer == "так":
+    button.click()
+else:
+    print("А шкода!")
