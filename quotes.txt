@@ -1,0 +1,18 @@
+Садок вишневий коло хати,
+Хрущі над вишнями гудуть,
+Плугатарі з плугами йдуть,
+Співають ідучи дівчата,
+А матері вечерять ждуть.
+(даун)
+(& C:/Users/user/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/user/Desktop/Нова папка (2)/pisunchik.py")
+(& C:/Users/user/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/user/Desktop/Нова папка (2)/pisunchik.py")
+(pon)
+пон
+(долбик)
+
+(к)
+(пон)
+р
+(о)
+р
+(о)
