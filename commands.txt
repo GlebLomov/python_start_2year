@@ -1,0 +1,8 @@
+
+# Конвертувати файл easy_editor.ui з Qt Designer в Python файл ui.py
+
+python -m PyQt5.uic.pyuic -x easy_editor.ui -o ui.py
+
+
+
+
